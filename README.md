@@ -7,6 +7,13 @@ Because most new web games reach out to a ton of different files on the server, 
 Why?
 With the boom in AI recompilation, there have been a ton of full games rebuilt to run in a browser, examples are Skate 3, Terraria, Minecraft, and CSGO. The problem with this is that it's illegal to host copyrighted games this way and the projects usually get DMCA'd within the first day to first month, leaving them unplayable. This program saves all the data the game references, and rebuilds the file structure to run in a local directory on your device, so even if the site goes down, you have a saved copy.
 
+Isn't this illegal?
+No, It's a tool! We don't host any copyrighted content on this repo, so don't worry about it going anywhere.
+The legality of downloading certain games off of the web is iffy. Always ensure you have a legal copy of the game you're saving.
+
+Why wouldn't I just play the game through steam?
+Because the web editions are significantly lighter on resources, allowing you to play them on lower-end hardware that wouldn't normally run the game.
+
 INSTRUCTIONS FOR DOWNLOADING SITES AVAILABLE SOON
 python har_download.py capture.har output_folder (Regular)
 
