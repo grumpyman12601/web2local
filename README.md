@@ -1,7 +1,4 @@
 # web2local
-
-## Web2Local web game downloader
-
 This is a set of instructions, commands, and scripts that allow for converting a web game to a locally stored game with all of the assets, rebuilt locally.
 
 ### Why not just download the HTML?
