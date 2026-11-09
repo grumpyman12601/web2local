@@ -1,3 +1,6 @@
-Visit the New Rad City website at newrad.city, and download the entire page as a .HTML file.
-Open the web page in a browser, wait for it to load
-No need to open a local server, everything is stored in one HTML page.
+For New Rad City, visit the New Rad City website, and download the site as a .HTML file.
+Now, just open it as a regular webpage.
+
+For Fallout NYC, find the fallout.nyc wayback machine page on the internet archive, and download it as a .html.
+If you don't like the wayback machine navbar at the top, use my tool to download the game, keep the HTML page and delete everything else
+No need to open a local server, everything is stored in one HTML file so just open it in a browser.
