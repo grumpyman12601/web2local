@@ -1,13 +1,12 @@
 Surfd.net CSGO Slide Offline Patch Instructions
 
-Open the update.py file, and edit the directory in the script to match the path to the game file:
-game-CrU_KUAb.js
-Located in: C:\Users\user\Downloads\path\to\surfd\output_folder\surfd.net\assets\game-CrU_KUAb.js
+Open the surfdupdate.py file, and edit the directory in the script to match the path to the game file game-CrU_KUAb.js, located in:
+C:\Users\user\Downloads\path\to\surfd\output_folder\surfd.net\assets\game-CrU_KUAb.js
 
-Run the python script update.py with the command "python qupdate.py"
+Run the python script surfdupdate.py with the command "python surfdupdate.py"
 The script makes the game always select local-only play, so you don't have to select it every time you respawn
 
-Replace this fragiment in 
+Replace this fragment in 
 C:\Users\user\Downloads\path\to\surfd\output_folder\surfd.net\assets\game-CrU_KUAb.js
 
 if(p){t.invalidate(),i.invalidate(),Ce("blocked","Online saving is unavailable. Press Esc to retry or choose local play. "+p);return}if(!e.config.enabled
