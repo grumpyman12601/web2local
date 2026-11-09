@@ -11,21 +11,19 @@ With the boom in AI recompilation, there have been a ton of full games rebuilt t
 
 ### Isn't this illegal?
 
-Not at all, it's a tool! We don't host any copyrighted content on this repository.
+No. We don't host any copyrighted content on this repository. Keep in mind that some sites will host a copyrighted game without asking for a license or CD, this is a form of piracy and I do not condone it.
 
-However, the legality of downloading certain games off of the web is iffy. Always ensure you have a legal copy of the game you're saving or are legally allowed to save it. 
-
-I'm not responsible for any misuse of this program. What you do on your own system is your own responsibility.
+With that in mind, I'm not responsible for any misuse of this program. What you do on your own system is your own responsibility and I only support downloading legally obtainable browser games.
 
 ### Why wouldn't I just play the game through steam?
 
 Because the web editions are significantly lighter on resources, allowing you to play them on lower-end hardware that wouldn't normally be able to run the game.
 
-That, and most web games don't have steam pages. This means if the site goes down the internet archive is the only backup. However the internet archive is required to comply with DMCA requests, so content can still be taken offline.
+That, and most web games don't have steam pages. This means if the site goes down the internet archive is the only backup. However, the internet archive is required to comply with DMCA requests, so content can still be taken offline.
 
 
 ## Requirements
-- Python3
+- Python3/Python
 
 - WebGPU and WebGL compatible browser
 
@@ -71,7 +69,14 @@ python3 -m http.server 8000
 
 This hosts the game and files on a local python server on port 8000, and allows you to visit `localhost:8000` in your browser and play the game.
 
-Note: Just opening the .html page won't usually work because the browser's file viewer won't grab additional files. Exceptions are games that are hosted in a single HTML file, like Fallout NYC.
+
+## Additional Info
+
+Just opening the .html page won't usually work because the browser's file viewer won't grab additional files. Exceptions are games that are hosted in a single HTML file, like Fallout NYC or New Rad City
+
+Some games won't work out of the box, due to the structure of the files, the game trying to reach out to a server it can't access, or it could be a multitude of pathing issues.
+
+**There's instructions for converting some games that don't work out of the box in this repo, but not every game is included and I'm adding more constantly. If you'd like to submit your own offline patch for a website, submit a pull request.**
 
 ## Commands
 
