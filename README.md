@@ -69,7 +69,7 @@ python3 -m http.server 8000
 
 This hosts the game and files on a local python server on port 8000, and allows you to visit `localhost:8000` in your browser and play the game.
 
-This method may not work 100% of the time, if you get an error or it doesn't run properly, search for the game in this repo and follow the instructions to patch the game.
+This method may not work 100% of the time, if you get an error or it doesn't run properly, search for your game in this repo and follow the instructions to patch it.
 
 **If you have a game that doesn't work, submit a ticket. If you'd like to add your own offline patch for a web game, submit a pull request.**
 
