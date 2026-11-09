@@ -3,7 +3,7 @@ This is a set of instructions, commands, and scripts that allow for converting a
 
 ### Why not just download the HTML?
 
-Because most new web games reach out to a ton of different files on the server, like javascript files, 3d models, and anything else the game might need to function in the browser.
+Because most new web games reach out to a ton of different files on the server, like javascript files, 3d models, and anything else the game might need to function in the browser. Just opening the .html page won't usually work because the browser's file viewer will only load the html page. Exceptions are games that are hosted in a single HTML file, like Fallout NYC or New Rad City
 
 ### Why?
 
@@ -23,7 +23,7 @@ That, and most web games don't have steam pages. This means if the site goes dow
 
 
 ## Requirements
-- Python3/Python
+- Python
 
 - WebGPU and WebGL compatible browser
 
@@ -69,14 +69,11 @@ python3 -m http.server 8000
 
 This hosts the game and files on a local python server on port 8000, and allows you to visit `localhost:8000` in your browser and play the game.
 
+This method may not work 100% of the time, if you get an error or it doesn't run properly, search for the game in this repo and follow the instructions to patch the game.
+
+**If you have a game that doesn't work, submit a ticket. If you'd like to add your own offline patch for a web game, submit a pull request.**
 
 ## Additional Info
-
-Just opening the .html page won't usually work because the browser's file viewer won't grab additional files. Exceptions are games that are hosted in a single HTML file, like Fallout NYC or New Rad City
-
-Some games won't work out of the box, due to the structure of the files, the game trying to reach out to a server it can't access, or it could be a multitude of pathing issues.
-
-**There's instructions for converting some games that don't work out of the box in this repo, but not every game is included and I'm adding more constantly. If you'd like to submit your own offline patch for a website, submit a pull request.**
 
 ## Commands
 
