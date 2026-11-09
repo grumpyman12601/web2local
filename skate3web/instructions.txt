@@ -1,0 +1,1 @@
+Download start.bat file and serve.py file from this folder in the repository, paste it into the directory above your output_folder directory, and double-click the .bat file to start the game.
