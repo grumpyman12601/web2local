@@ -71,9 +71,11 @@ This hosts the game and files on a local python server on port 8000, and allows 
 
 This method may not work 100% of the time, if you get an error or it doesn't run properly, search for your game in this repo and follow the instructions to patch it.
 
-**If you have a game that doesn't work, submit a ticket. If you'd like to add your own offline patch for a web game, submit a pull request.**
-
 ## Additional Info
+
+If you have a game that doesn't work, submit a ticket. If you'd like to add your own offline patch for a web game, submit a pull request.
+
+We do not host any copyrighted content or links to copyrighted content on this repository. This means I will not upload network captures (capture.har files) due to the fact they host links to possibly copyrighted content.
 
 ## Commands
 
