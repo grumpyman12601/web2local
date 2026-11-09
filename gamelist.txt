@@ -1,0 +1,6 @@
+This is a list of all the web games that work straight out of the box, without needing any scripts or additional setup
+
+Terraria
+FalloutNYC
+NewRadCity
+VegasRun
