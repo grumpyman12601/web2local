@@ -4,3 +4,4 @@ Terraria
 FalloutNYC
 NewRadCity
 VegasRun
+Half Life (Xash3D FWGS Emscripten port)
