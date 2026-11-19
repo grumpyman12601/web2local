@@ -1,6 +1,6 @@
 This is a list of all the web games that work straight out of the box, without needing any additional setup or scripts.
 
-Half Life (Xash3D FWGS Emscripten port)
+Half Life (Xash3D FWGS Emscripten port by pixelsuft)
 NewRadCity
 Fallout: New York City
 Terraria
