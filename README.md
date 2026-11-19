@@ -33,6 +33,7 @@ That, and most web games don't have steam pages. This means if the site goes dow
 
 ### Downloading a game
 
+1. Find a game, I suggest https://browsergame.si/ for a list of web ports and games.
 1. Visit the game's website you'd like to save.
 2. Open inspect element and navigate to the network section.
 3. Clear your saved data from the site.
