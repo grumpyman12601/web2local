@@ -78,7 +78,7 @@ If you have a game that doesn't work, submit a ticket. If you'd like to add your
 
 We do not host any copyrighted content or links to copyrighted content on this repository. This means I will not upload network captures (capture.har files) due to the fact they host links to possibly copyrighted content.
 
-Browser games that ask you to upload game files before loading will work without any additional setup. Just run the scripts like normal.
+Browser games and emulators that ask you to upload game files before loading will work without any additional setup. Just upload your game files to the site as you're capturing it, and export once you're done capturing all links.
 
 ## Commands
 
