@@ -46,6 +46,8 @@ Depending on the way the game loads, it may load all content at once, or it may 
 
 5B. If your game loads assets as you encounter them, navigate through all the menus, maps, and content until there isn't any more content to download. After you don't have anything else to get, go to step 6.
 
+5C. If your game asks for game files (Either emulation or de/recompilation), upload the required files and start the game while capturing network traffic. All you need is the game's runtime environment/emulator's required files and resources. No game is loaded on the site, so everything is stored in 4 or 5 files.
+
 6. Save the output from the network pane, using the button "Export as HAR".
 7. Rename the file to capture.har, and put it into a directory named after the game.
 8. Make a folder called output_folder in the directory you just made.
