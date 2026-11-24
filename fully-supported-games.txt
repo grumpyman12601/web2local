@@ -1,5 +1,7 @@
 This is a list of all the web games that work straight out of the box, without needing any additional setup or scripts.
 
+Any site that asks you to upload your own game files will work out of the box. Just upload your game file to the site hosting it while capturing data, wait for it to load, and export as har like normal. You may need to use serve.py instead of a python server, just download the file, put it into your game directory, and run the script through the command line. (python serve.py)
+
 Half Life (Xash3D FWGS Emscripten port by pixelsuft)
 NewRadCity
 Fallout: New York City
