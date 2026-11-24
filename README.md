@@ -72,6 +72,8 @@ This hosts the game and files on a local python server on port 8000, and allows 
 
 This method may not work 100% of the time, if you get an error or it doesn't run properly, search for your game in this repo and follow the instructions to patch it.
 
+If you get an error that cross-origin isolation is required on the site, download serve.py from this repository and run that as the local server instead with ```python serve.py```
+
 ## Additional Info
 
 If you have a game that doesn't work, submit a ticket. If you'd like to add your own offline patch for a web game, submit a pull request.
@@ -97,4 +99,8 @@ python har_download.py capture.har output_folder --all-hosts
 ```bash
 cd path/to/webgame
 python3 -m http.server 8000
+```
+
+```bash
+python serve.py
 ```
